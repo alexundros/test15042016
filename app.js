@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 
-app.set('port', 3333);
+app.set('port', process.env.PORT || 3333);
 app.set('views', __dirname + '/template');
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/www'));
