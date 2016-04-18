@@ -1,0 +1,259 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: Verdana;
+  font-size: 11pt;
+  background: #ececec;
+  color: #000;
+}
+
+.container {
+  max-width: 1180px;
+  min-width: 500px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.top .menu span {
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+  display: inline-block;
+  vertical-align: top;
+}
+.top .menu span + span {
+  margin: 0 0 0 -5px;
+}
+.top .menu span.text {
+  font-size: 11pt;
+  color: #000;
+  margin: 0 0 0 5px;
+}
+.top .menu .buttons .btn {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  cursor: pointer;
+}
+.top .menu .buttons .btn.hamburger {
+  background: url("/images/hamburger.png") no-repeat left top;
+}
+.top .menu .buttons .btn.admin {
+  background: url("/images/admin.png") no-repeat left top;
+}
+
+.control {
+  margin: 30px auto;
+}
+.control header {
+  font-size: 24pt;
+  color: #1a1a1a;
+  margin: 0 0 30px 0;
+}
+.control .tabs ul.labels {
+  display: inline-block;
+  background: #FFF;
+  box-shadow: 1px 2px 1px #d9d9d9;
+  font-size: 11pt;
+  border-radius: 5px 5px 0 0;
+  border-width: 1px;
+  border-color: #FFF;
+}
+.control .tabs ul.labels li {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 20px;
+  height: 23px;
+  padding: 10px 20px;
+}
+.control .tabs .tab {
+  background: #FFF;
+  padding: 20px;
+  box-shadow: 1px 2px 1px #d9d9d9;
+  position: relative;
+  top: -3px;
+  border-radius: 0 5px 5px 5px;
+  border-width: 1px;
+  border-color: #FFF;
+}
+.control .tabs .tab .buttons button {
+  padding: 7px 15px;
+  margin: 0;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzcyYzkyNSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzM0YTE0OSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #72c925), color-stop(100%, #34a149));
+  background-image: -moz-linear-gradient(#72c925, #34a149);
+  background-image: -webkit-linear-gradient(#72c925, #34a149);
+  background-image: linear-gradient(#72c925, #34a149);
+  color: #FFF;
+  font-size: 13pt;
+  cursor: pointer;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #34a149;
+}
+.control .tabs .tab .buttons button:hover {
+  background: #34a149;
+}
+.control .tabs .tab .buttons button + button {
+  margin: 0 0 0 15px;
+}
+
+.data {
+  margin: 10px auto;
+}
+.data table {
+  width: 100%;
+  background: #FFF;
+  box-shadow: 1px 2px 1px #d9d9d9;
+}
+.data table tr.gr {
+  background: #f2f2f2;
+}
+.data table td, .data table th {
+  padding: 15px 20px;
+  text-align: left;
+  border-bottom: 1px solid #d9d9d9;
+  font-size: 11pt;
+}
+.data table thead {
+  background: #d2f6b3;
+}
+.data table thead th + th {
+  border-left: 1px solid #d9d9d9;
+}
+.data table td + td {
+  border-left: 1px solid #d9d9d9;
+}
+
+.navigator {
+  float: right;
+  margin: 5px 0 10px 0;
+}
+.navigator .text {
+  font-size: 12px;
+  color: #000;
+}
+.navigator .page, .navigator select {
+  padding: 5px 7px;
+  background: #fff;
+  outline: none;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #d9d9d9;
+  border-style: solid;
+}
+.navigator select {
+  padding-right: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.navigator .select {
+  position: relative;
+  display: inline-block;
+}
+.navigator .select .arrow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 5px;
+  margin: auto;
+  width: 9px;
+  height: 5px;
+  background: url("/images/arrow.down.png") right center no-repeat;
+}
+.navigator .buttons {
+  display: inline-block;
+  vertical-align: top;
+}
+.navigator .buttons button {
+  margin: 0;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZjZTExMSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Y3YWYyZCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fce111), color-stop(100%, #f7af2d));
+  background-image: -moz-linear-gradient(#fce111, #f7af2d);
+  background-image: -webkit-linear-gradient(#fce111, #f7af2d);
+  background-image: linear-gradient(#fce111, #f7af2d);
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+  position: relative;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #f7af2d;
+}
+.navigator .buttons button:hover {
+  background: #f7af2d;
+}
+.navigator .buttons button span {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.navigator .buttons button.left span {
+  background-image: url("/images/arrow.left.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.navigator .buttons button.right span {
+  background-image: url("/images/arrow.right.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@media all and (min-width: 1030px) {
+  .data table td {
+    font-size: 11pt;
+  }
+}
+@media all and (max-width: 1030px) {
+  .data table td {
+    font-size: 9pt;
+  }
+}
+@media all and (max-width: 880px) {
+  .data table td {
+    font-size: 7pt;
+  }
+}
