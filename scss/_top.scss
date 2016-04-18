@@ -1,0 +1,33 @@
+.top {
+  .menu {
+    span {
+      margin: 0;
+      padding: 0;
+      line-height: 30px;
+      display: inline-block;
+      vertical-align: top;
+      + span {
+        margin: 0 0 0 -5px;
+      }
+      &.text {
+        font-size: 11pt;
+        color: #000;
+        margin: 0 0 0 5px;
+      }
+    }
+    .buttons {
+      .btn {
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        cursor: pointer;
+        &.hamburger {
+          background: url("/images/hamburger.png") no-repeat left top;
+        }
+        &.admin {
+          background: url("/images/admin.png") no-repeat left top;
+        }
+      }
+    }
+  }
+}

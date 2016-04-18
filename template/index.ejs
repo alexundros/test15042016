@@ -1,0 +1,103 @@
+<% layout('layout/main') %>
+
+<div class="top">
+    <div class="menu">
+        <div class="buttons">
+            <span class="btn hamburger"></span>
+            <span class="btn admin"></span>
+            <span class="text">Главная</span>
+        </div>
+    </div>
+</div>
+
+<div class="control">
+    <header>Сокраненные данные отчетов</header>
+    <div class="tabs">
+        <ul class="labels">
+            <li class="data">Работа с данными</li>
+        </ul>
+        <div class="tab">
+            <div class="buttons">
+                <button class="show">Показать</button>
+                <button class="excel">Вывести в Excel</button>
+                <button class="delete">Удалить</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<form onsubmit="return false;" class="navigator">
+    <span class="text">Страница</span>
+    <span class="page">1</span>
+    <span class="text">Кол-во строк</span>
+    <div class="select">
+        <select name="limit">
+            <option value="10">10</option>
+            <option value="30">30</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+        </select>
+        <span class="arrow"></span>
+    </div>
+    <span class="text">1-100 из 1235</span>
+    <div class="buttons">
+        <button class="left"><span></span></button>
+        <button class="right"><span></span></button>
+    </div>
+</form>
+
+<div class="clearfix"></div>
+
+<div class="data">
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Дата</th>
+            <th>Название</th>
+            <th>Пользователь</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>01.08.2015 12:13</td>
+            <td>Трудоустроено после профессионального обучения</td>
+            <td>Констатинопольский Константин</td>
+        </tr>
+        <tr class="gr">
+            <td>01.08.2015 12:11</td>
+            <td>Приняли участие в общественных работах</td>
+            <td>Иванов Иван</td>
+        </tr>
+        <tr>
+            <td>01.08.2015 12:10</td>
+            <td>Направлено на профессиональное обучения</td>
+            <td>Сидоров Сидор</td>
+        </tr>
+        <tr class="gr">
+            <td>01.08.2015 12:05</td>
+            <td>Квартальный отчет 2Т</td>
+            <td>Петров Петр</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<form onsubmit="return false;" class="navigator">
+    <span class="text">Страница</span>
+    <span class="page">1</span>
+    <span class="text">Кол-во строк</span>
+    <div class="select">
+        <select name="limit">
+            <option value="10">10</option>
+            <option value="30">30</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+        </select>
+        <span class="arrow"></span>
+    </div>
+    <span class="text">1-100 из 1235</span>
+    <div class="buttons">
+        <button class="left"><span></span></button>
+        <button class="right"><span></span></button>
+    </div>
+</form>

@@ -1,0 +1,29 @@
+@media all and (min-width: 1030px) {
+  .data {
+    table {
+      td {
+        font-size: 11pt;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 1030px) {
+  .data {
+    table {
+      td {
+        font-size: 9pt;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 880px) {
+  .data {
+    table {
+      td {
+        font-size: 7pt;
+      }
+    }
+  }
+}

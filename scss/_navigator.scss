@@ -1,0 +1,78 @@
+.navigator {
+  float: right;
+  margin: 5px 0 10px 0;
+  .text {
+    font-size: 12px;
+    color: #000;
+  }
+  .page, select {
+    padding: 5px 7px;
+    background: #fff;
+    outline: none;
+    border: {
+      radius: 5px;
+      width: 1px;
+      color: #d9d9d9;
+      style: solid;
+    }
+  }
+  select {
+    padding-right: 10px;
+  }
+  .select {
+    position: relative;
+    display: inline-block;
+    .arrow {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 5px;
+      margin: auto;
+      width: 9px;
+      height: 5px;
+      background: url("/images/arrow.down.png") right center no-repeat;
+    }
+  }
+  .buttons {
+    display: inline-block;
+    vertical-align: top;
+    button {
+      margin: 0;
+      @include background-image(linear-gradient(#fce111, #f7af2d));
+      width: 40px;
+      height: 30px;
+      cursor: pointer;
+      position: relative;
+      border: {
+        radius: 5px;
+        width: 1px;
+        color: #f7af2d;
+      }
+      &:hover {
+        background: #f7af2d;
+      }
+      span {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+      &.left span {
+        background: {
+          image: url("/images/arrow.left.png");
+          position: center center;
+          repeat: no-repeat;
+        }
+      }
+      &.right span {
+        background: {
+          image: url("/images/arrow.right.png");
+          position: center center;
+          repeat: no-repeat;
+        }
+      }
+    }
+  }
+}

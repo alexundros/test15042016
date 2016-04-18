@@ -1,0 +1,24 @@
+@import "import";
+@import "compass/css3";
+
+body {
+  font: {
+    family: Verdana;
+    size: 11pt;
+  }
+  background: #ececec;
+  color: #000;
+}
+
+.container {
+  max-width: 1180px;
+  min-width: 500px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@import "top";
+@import "control";
+@import "data";
+@import "navigator";
+@import "media";
